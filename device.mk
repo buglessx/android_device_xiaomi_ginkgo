@@ -490,3 +490,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# Product init
+PRODUCT_PACKAGES += \
+    init.device.rc \
+    init.safailnet.rc
